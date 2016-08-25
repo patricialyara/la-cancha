@@ -1,0 +1,61 @@
+.cancha{
+	width: 900px;
+	height: 500px;
+	background-color: green;
+	position: relative;
+}
+
+.borde{
+	width: 820px;
+	height: 400px;
+	border: 2px solid white;
+	position: absolute;
+	top: 50px;
+    left: 35px;
+
+}
+
+.arco{
+	height: 150px;
+	width: 80px;
+	border: 2px solid white;
+	position: absolute;
+}
+
+.uno{
+	top: 120px;
+	border-left: 0;
+}
+
+.dos{
+	top: 120px;
+	right: 0;
+	border-right: 0;
+}
+
+.circulo{
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	position: absolute;
+	left: 350px;
+	top: 125px;
+}
+
+.pelota1{
+ 	position: absolute;
+ 	left: 75px;
+}
+
+.pelota2{
+	position: absolute;
+	top: 120px;
+	right: 85px
+}
+
+.pelota3{
+	position: absolute;
+	left: 85px;
+	bottom: 200px;
+}
